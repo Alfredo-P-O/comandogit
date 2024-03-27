@@ -1,16 +1,30 @@
 git init - inicia un repositorio nuevo
 
+git status - nos muestra el estado actual de nuestro repositorio
+
 git add - se usa para subir archivos o cambios en un repositorio git 
 
-git commit (-m "Mensaje) - se usa para confirmar los cambios en el repositorio y poder 
-ser guardados
+git commit (-m "Mensaje) - se usa para confirmar los cambios y guardarlo en el repositorio
+git stash -se usa para guardar cambios temporales de manera local
+git stash pop - para hacer uso de lo guardado localmente
 
-git branch - se usa para crear, listar o eliminar ramas
+git branch - se usa para crear, listar o eliminar (-d) ramas
+git switch - se usa para cambiar de ramas (no afecta al repositorio)
+git checkout - se usa para cambiar entre ramas, moverse entre commits y trabajar con archivos 
+especificos (afecta la repositorio)
+git merge - sirve para traer cambios de una rama a otra
 
-git checkout - se usa para cambiar entre ramas existentes
-
-git log - nos muestras los cambios realizados en forma de historial en el/los documentos 
+git log - nos muestras los cambios realizados en forma de historial en el/los documentos o ramas
 del repositorio actual
-
+ 
 git diff - nos muestra los cambios realizados en el/los documentos, comparando sus contenidos
+
+git reset o git reset --hard - nos restablece o deshace los cambios realizados en uno o varios 
+documentos del repositorio, funciona para adelante o para atras
+
+git reflog - nos nuestra un historial completo de todos los cambios realizados en el repositorios
+tomando el HEAD  como referencia, sin importar que se aplico git reset anteriormente
+
+git tag - se usa para crear, listar, verificar y eliminar etiquetas de un repositorio
+git show - muestra la informacion de una etiqueta
 
