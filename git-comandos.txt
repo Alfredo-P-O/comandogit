@@ -1,3 +1,16 @@
+git init - inicia un repositorio nuevo
 
+git add - se usa para subir archivos o cambios en un repositorio git 
 
-git diff - nos muestra los cambios realizados en el/los documentos modificados subidos subido en git
+git commit (-m "Mensaje) - se usa para confirmar los cambios en el repositorio y poder 
+ser guardados
+
+git branch - se usa para crear, listar o eliminar ramas
+
+git checkout - se usa para cambiar entre ramas existentes
+
+git log - nos muestras los cambios realizados en forma de historial en el/los documentos 
+del repositorio actual
+
+git diff - nos muestra los cambios realizados en el/los documentos, comparando sus contenidos
+
