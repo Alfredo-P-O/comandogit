@@ -1,0 +1,3 @@
+
+
+git diff - nos muestra los cambios realizados en el/los documentos modificados subidos subido en git
