@@ -28,3 +28,13 @@ tomando el HEAD  como referencia, sin importar que se aplico git reset anteriorm
 git tag - se usa para crear, listar, verificar y eliminar etiquetas de un repositorio
 git show - muestra la informacion de una etiqueta
 
+git push -u origin main - se usar para subir todo ag github , es decir, 
+sincronizarlo con tu repositorio principal.
+
+git fetch - se usa para recuperar el historial de cambios del repositorio al local, 
+sin funsinarlo automaticamente
+
+git pull.rebase false - se usa la primera vez que se hara un pull a un repositorio online,
+se indica una fusion sin alterar el historial de commits
+git pull origin main - nos trae los cambios guardado en el repositorio online al nuestro local
+
