@@ -38,3 +38,16 @@ git pull.rebase false - se usa la primera vez que se hara un pull a un repositor
 se indica una fusion sin alterar el historial de commits
 git pull origin main - nos trae los cambios guardado en el repositorio online al nuestro local
 
+______________________________________________________________________________________________________
+
+Flujo de trabajo 'git flow'
+
+brew install git-flow - usamos para instalar git flow en la maquina
+
+git flow - podemos ver los subcomando con los cuales podemos trabajar
+
+git flow init - se usa para instalar el flujo de trabajo en un repositorio
+
+git flow feature start(*) 'nombre_asignado' - inicializamos un rama para un funcion especifica
+*finish - sirve para cerrar la rama y unir los cambios a developer
+
